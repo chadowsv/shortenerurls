@@ -53,7 +53,7 @@ def shorten_url(request: URLRequest):
     conn.close()
 
     return {
-        "short_url": f"http://localhost:8000/{short_id}"
+        "short_url": f"http://54.89.153.4:8000/{short_id}"
     }
 
 @app.get("/{short_id}")
